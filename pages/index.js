@@ -1,4 +1,3 @@
-import NextLink from "next/link";
 import {
   Box,
   Button,
@@ -15,7 +14,7 @@ import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import { IoLogoGithub } from "react-icons/io5";
-import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import Image from "next/image";
 
 const ProfileImage = chakra(Image, {
@@ -27,7 +26,7 @@ const Home = () => (
     <Box display={{ md: "flex" }}>
       <Box flexGrow={1} mt={5}>
         <Heading as="h2" variant="page-title">
-          Клуб інженерії та розробки програмного забезпечення
+          Клуб Інженерії та Розробки Програмного Забезпечення
         </Heading>
         <p>
           Державний університет інформаційно-комунікаційних технологій
