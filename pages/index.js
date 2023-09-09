@@ -14,7 +14,7 @@ import { EmailIcon } from "@chakra-ui/icons";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
-import { IoLogoGithub, IoLogoTwitter } from "react-icons/io5";
+import { IoLogoGithub } from "react-icons/io5";
 import { FaTelegram, FaTelegramPlane } from "react-icons/fa";
 import Image from "next/image";
 
@@ -225,7 +225,8 @@ const Home = () => (
         bg={useColorModeValue("whiteAlpha.500", "whiteAlpha.200")}
         css={{ backdropFilter: "blur(10px)" }}
       >
-        Якщо у вас виникли запитання - перейдіть до нашого телеграм-бота для отримання додаткової інформації
+        Якщо у вас виникли запитання - перейдіть до нашого телеграм-бота для
+        отримання додаткової інформації
       </Box>
 
       <Section delay={0.3}>
@@ -234,7 +235,7 @@ const Home = () => (
         </Heading>
         <List style={{ textAlign: "center" }}>
           <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://github.com/kenjitheman" target="_blank">
+            <Link href="https://t.me/seadclub_bot" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
@@ -245,7 +246,7 @@ const Home = () => (
             </Link>
           </ListItem>
           <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://t.me/kenjitheman" target="_blank">
+            <Link href="https://t.me/seadclub" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"
@@ -280,24 +281,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        <Heading as="h3" variant="section-title">
-          <p>
-            let&apos;s work !
-          </p>
-        </Heading>
-
-        <Box align="center" my={4}>
-          <Button
-            as={NextLink}
-            href="https://t.me/kenjitheman"
-            scroll={false}
-            leftIcon={<FaTelegramPlane />}
-            colorScheme="blue"
-          >
-            contact me
-          </Button>
-        </Box>
       </Section>
     </Container>
   </Layout>
