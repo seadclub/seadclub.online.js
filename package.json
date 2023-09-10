@@ -1,7 +1,7 @@
 {
-  "name": "Software Engineering and Development Club",
+  "name": "seadclub.co",
   "version": "1.0",
-  "description": "Software Engineering and Development Club's website",
+  "description": "seadclub's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
