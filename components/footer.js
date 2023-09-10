@@ -3,7 +3,7 @@ import { Box } from "@chakra-ui/react";
 const Footer = () => {
   return (
     <Box align="center" opacity={0.4} fontSize="sm">
-      <a href="https://github.com/kenjitheman/sead.club">
+      <a href="https://github.com/kenjitheman/seadclub.co">
         <p>
           source code
         </p>
