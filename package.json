@@ -1,7 +1,7 @@
 {
-  "name": "kenjitheman",
+  "name": "Software Engineering and Development Club",
   "version": "1.0",
-  "description": "kenjitheman's website",
+  "description": "Software Engineering and Development Club's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",

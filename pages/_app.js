@@ -1,11 +1,11 @@
-import Layout from '../components/layouts/main'
-import Fonts from '../components/fonts'
-import { AnimatePresence } from 'framer-motion'
-import Chakra from '../components/chakra'
-import { Analytics } from '@vercel/analytics/react';
+import Layout from "../components/layouts/main";
+import Fonts from "../components/fonts";
+import { AnimatePresence } from "framer-motion";
+import Chakra from "../components/chakra";
+import { Analytics } from "@vercel/analytics/react";
 
-if (typeof window !== 'undefined') {
-  window.history.scrollRestoration = 'manual'
+if (typeof window !== "undefined") {
+  window.history.scrollRestoration = "manual";
 }
 
 function Website({ Component, pageProps, router }) {
@@ -17,8 +17,8 @@ function Website({ Component, pageProps, router }) {
           exitBeforeEnter
           initial={true}
           onExitComplete={() => {
-            if (typeof window !== 'undefined') {
-              window.scrollTo({ top: 0 })
+            if (typeof window !== "undefined") {
+              window.scrollTo({ top: 0 });
             }
           }}
         >
@@ -27,7 +27,7 @@ function Website({ Component, pageProps, router }) {
       </Layout>
       <Analytics />
     </Chakra>
-  )
+  );
 }
 
-export default Website
+export default Website;
