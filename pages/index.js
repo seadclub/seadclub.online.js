@@ -258,7 +258,7 @@ const Home = () => (
           </ListItem>
 
           <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://github.com/SEAD-Club" target="_blank">
+            <Link href="https://github.com/seadclub" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="blue"

@@ -78,7 +78,7 @@ const Navbar = (props) => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem
-            href="https://forms.gle/yU8898kzKHZZW7Vb7"
+            href="https://forms.gle/kXwDj9WxeBG7qcpXA"
             path={path}
           >
             Bступити в клуб
@@ -88,7 +88,7 @@ const Navbar = (props) => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/SEAD-Club"
+            href="https://github.com/seadclub"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -114,7 +114,7 @@ const Navbar = (props) => {
               <MenuList>
                 <MenuItem
                   as={MenuLink}
-                  href="https://forms.gle/yU8898kzKHZZW7Vb7"
+                  href="https://forms.gle/kXwDj9WxeBG7qcpXA"
                 >
                   Bступити в клуб
                 </MenuItem>
@@ -123,7 +123,7 @@ const Navbar = (props) => {
                 </MenuItem>
                 <MenuItem
                   as={MenuLink}
-                  href="https://github.com/SEAD-Club"
+                  href="https://github.com/seadclub"
                 >
                   Github
                 </MenuItem>
