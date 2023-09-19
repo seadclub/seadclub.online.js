@@ -93,7 +93,6 @@ const Home = () => (
     <br />
 
     <Section delay={0.3}>
-
       <Heading as="p" variant="section-title">
         Співпраця в проектах
       </Heading>
@@ -232,18 +231,6 @@ const Home = () => (
                 leftIcon={<IoLogoGithub />}
               >
                 Github
-              </Button>
-            </Link>
-          </ListItem>
-
-          <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="mailto:seadclub@proton.me" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<EmailIcon />}
-              >
-                seadclub@proton.me
               </Button>
             </Link>
           </ListItem>
