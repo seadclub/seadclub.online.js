@@ -9,7 +9,6 @@ import {
   ListItem,
   useColorModeValue,
 } from "@chakra-ui/react";
-import { EmailIcon } from "@chakra-ui/icons";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
@@ -208,17 +207,6 @@ const Home = () => (
                 leftIcon={<FaTelegram />}
               >
                 Бот
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem style={{ paddingBottom: "1%" }}>
-            <Link href="https://t.me/seadclub" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="blue"
-                leftIcon={<FaTelegram />}
-              >
-                Kанал
               </Button>
             </Link>
           </ListItem>
