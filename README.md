@@ -1,9 +1,9 @@
-## Software Engineering and Development Club's website
+## seadtclub's website
 
 ## installation
 
 ```
-git clone https://github.com/kenjitheman/seadclub
+git clone https://github.com/kenjitheman/seadclub.online
 ```
 
 - install all dependencies
