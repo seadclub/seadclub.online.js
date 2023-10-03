@@ -1,4 +1,4 @@
-## seadtclub's website
+## seadclub's website
 
 ## installation
 
