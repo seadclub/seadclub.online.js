@@ -15,7 +15,7 @@ const Main = ({ children, router }) => {
         />
         <meta
           name="author"
-          content="Клуб Інженерії та Розробки Програмного Забезпечення"
+          content="Клуб Інженерії Програмного Забезпечення та Цифрових Технологій"
         />
         <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -25,14 +25,14 @@ const Main = ({ children, router }) => {
         <link rel="icon" type="image/png" href="/favicon-16x16.png" />
         <meta
           property="og:site_name"
-          content="Клуб Інженерії та Розробки Програмного Забезпечення"
+          content="Клуб Інженерії Програмного Забезпечення та Цифрових Технологій"
         />
         <meta
           name="og:title"
-          content="Клуб Інженерії та Розробки Програмного Забезпечення"
+          content="Клуб ІПЗ & ЦТ"
         />
         <meta property="og:type" content="website" />
-        <title>Клуб Інженерії та Розробки Програмного Забезпечення</title>
+        <title>Клуб ІПЗ & ЦТ</title>
       </Head>
 
       <NavBar path={router.asPath} />

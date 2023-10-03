@@ -33,7 +33,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            sead_club
+            seadt_club
           </Text>
         </LogoBox>
       </Link>
