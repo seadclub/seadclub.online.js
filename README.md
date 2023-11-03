@@ -3,7 +3,7 @@
 ## installation
 
 ```
-git clone https://github.com/kenjitheman/seadclub.online
+git clone https://github.com/seadclub/seadclub.online
 ```
 
 - install all dependencies
