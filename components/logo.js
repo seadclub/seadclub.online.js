@@ -4,41 +4,44 @@ import FootprintIcon from "./icons/footprint";
 import styled from "@emotion/styled";
 
 const LogoBox = styled.span`
-  font-weight: bold;
-  font-size: 20px;
-  display: inline-flex;
-  align-items: center;
-  height: 40px;
-  line-height: 20px;
-  padding: 10px;
+font-weight: bold;
+font-size: 35px;
+display: inline-flex;
+align-items: center;
+height: 50px;
+cursor: pointer;
+transition: 200ms ease;
+&:hover {
+    transform: scale(1.1);
+}
 
-  > svg {
-    transition: 200ms ease;
-  }
+    > svg {
+        transition: 200ms ease;
+    }
 
-  &:hover > svg {
-    transform: rotate(360deg);
-  }
+    &:hover > svg {
+        transform: rotate(360deg);
+    }
 `;
 
 const Logo = () => {
-  return (
-    (
-      <Link href="/" scroll={false}>
-        <LogoBox>
-          <FootprintIcon />
-          <Text
-            color={useColorModeValue("gray.800", "whiteAlpha.900")}
-            fontFamily='M PLUS Rounded 1c", sans-serif'
-            fontWeight="bold"
-            ml={3}
-          >
-            sead_club
-          </Text>
-        </LogoBox>
-      </Link>
-    )
-  );
+    return (
+        (
+            <Link href="/" scroll={false}>
+                <LogoBox>
+                    <FootprintIcon />
+                    <Text
+                        color={useColorModeValue("gray.800", "whiteAlpha.900")}
+                        fontFamily='Rajdhani, sans-serif'
+                        fontWeight="bold"
+                    >
+                        sead club
+                    </Text>
+                </LogoBox>
+            </Link>
+        )
+    );
 };
 
 export default Logo;
+
