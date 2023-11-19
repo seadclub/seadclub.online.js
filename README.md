@@ -8,7 +8,7 @@ git clone https://github.com/seadclub/seadclub.online
 
 - Install all dependencies
 
-```
+```shell
 yarn install
 ```
 
@@ -16,13 +16,13 @@ yarn install
 
 - Run
 
-```
+```shell
 yarn start
 ```
 
 - Run in dev mode
 
-```
+```shell
 yarn dev
 ```
 
