@@ -1,36 +1,36 @@
-## seadclub's website
+## SEAD Club's website
 
-## installation
+## Installation
 
-```
+```shell
 git clone https://github.com/seadclub/seadclub.online
 ```
 
-- install all dependencies
+- Install all dependencies
 
 ```
 yarn install
 ```
 
-## usage
+## Usage
 
-- run
+- Run
 
 ```
 yarn start
 ```
 
-- run in dev mode
+- Run in dev mode
 
 ```
 yarn dev
 ```
 
-## contributing
+## Contributing
 
-- pull requests are welcome, for major changes, please open an issue first to
-  discuss what you would like to change
+- Pull requests are welcome, for major changes, please open an issue first to
+  discuss what you would like to change.
 
-## license
+## License
 
 - [MIT](https://choosealicense.com/licenses/mit/)
