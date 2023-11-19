@@ -10,7 +10,7 @@ import {
 
 const NotFound = () => {
   return (
-    <Container>
+    <Container maxW={"5xl"}>
       <Heading as="h1" mt={12}>not found | 404</Heading>
       <Text>сторінка, яку ви шукаєте, не знайдена -_-</Text>
       <Divider my={6} />
