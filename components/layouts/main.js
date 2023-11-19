@@ -32,16 +32,15 @@ const Main = ({ children, router }) => {
           content="Клуб ІПЗ & ЦТ"
         />
         <meta property="og:type" content="website" />
-        <title>Клуб ІПЗ & ЦТ</title>
+        <title>SEAD Club</title>
       </Head>
 
       <NavBar path={router.asPath} />
 
-      <Container maxW="container.md" pt={14}>
+      <Container maxW="container.xl" pt={20}>
         <AnimatePresence initial={true} exitBeforeEnter={false} mode="wait">
           {children}
         </AnimatePresence>
-
         <Footer />
       </Container>
     </Box>
