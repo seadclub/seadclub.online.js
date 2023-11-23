@@ -2,13 +2,13 @@
 
 ## Installation
 
-```shell
+```sh
 git clone https://github.com/seadclub/seadclub.online
 ```
 
 - Install all dependencies
 
-```shell
+```sh
 yarn install
 ```
 
@@ -16,13 +16,13 @@ yarn install
 
 - Run
 
-```shell
+```sh
 yarn start
 ```
 
 - Run in dev mode
 
-```shell
+```sh
 yarn dev
 ```
 
