@@ -120,7 +120,7 @@ const Navbar = (props) => {
                             <MenuList>
                                 <MenuItem
                                     as={MenuLink}
-                                    href="http://join.seadclub.onlie"
+                                    href="http://join.seadclub.online"
                                 >
                                     Bступити в клуб
                                 </MenuItem>
