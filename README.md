@@ -1,9 +1,9 @@
-## SEAD Club's website
+## Old SEAD Club's website
 
 ## Installation
 
 ```sh
-git clone https://github.com/seadclub/seadclub.online
+git clone https://github.com/seadclub/seadclub.online.js
 ```
 
 - Install all dependencies
@@ -33,4 +33,4 @@ yarn dev
 
 ## License
 
-- [MIT](https://choosealicense.com/licenses/mit/)
+- [MIT](./LICENSE)
