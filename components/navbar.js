@@ -2,18 +2,10 @@ import { forwardRef } from "react";
 import Logo from "./logo";
 import NextLink from "next/link";
 import {
-    Box,
-    Container,
-    Flex,
-    Heading,
-    IconButton,
-    Link,
-    Menu,
-    MenuButton,
-    MenuItem,
-    MenuList,
-    Stack,
-    useColorModeValue,
+    Box, Container, Flex,
+    Heading, IconButton, Link,
+    Menu, MenuButton, MenuItem,
+    MenuList, Stack, useColorModeValue
 } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggleButton from "./theme-toggle-button";
@@ -27,11 +19,11 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             scroll={false}
             py={2}
             px={4}
-            bg={useColorModeValue('transparent', 'transparent')}
+            bg={useColorModeValue("transparent", "transparent")}
             outline="1px solid"
-            outlineColor={useColorModeValue('gray.300', 'gray.700')}
+            outlineColor={useColorModeValue("gray.300", "gray.700")}
             rounded="xl"
-            color={useColorModeValue('black', 'white')}
+            color={useColorModeValue("black", "white")}
             border="1px solid transparent"
             fontSize="lg"
             target={target}
@@ -90,9 +82,6 @@ const Navbar = (props) => {
                     >
                         Bступити в клуб
                     </LinkItem>
-                    <LinkItem href="https://t.me/seadclub_bot" path={path}>
-                        Зв'язатися з нами
-                    </LinkItem>
                     <LinkItem
                         target="_blank"
                         href="https://github.com/seadclub"
@@ -124,20 +113,11 @@ const Navbar = (props) => {
                                 >
                                     Bступити в клуб
                                 </MenuItem>
-                                <MenuItem as={MenuLink} href="https://t.me/seadclub_bot">
-                                    Зв'язатися з нами
-                                </MenuItem>
                                 <MenuItem
                                     as={MenuLink}
                                     href="https://github.com/seadclub"
                                 >
                                     Github
-                                </MenuItem>
-                                <MenuItem
-                                    as={Link}
-                                    href="https://github.com/seadclub/seadclub.online"
-                                >
-                                    Source code
                                 </MenuItem>
                             </MenuList>
                         </Menu>

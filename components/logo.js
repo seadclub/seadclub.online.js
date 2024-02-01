@@ -35,7 +35,7 @@ const Logo = () => {
                         fontFamily='Rajdhani, sans-serif'
                         fontWeight="bold"
                     >
-                        sead club
+                        SEAD Club
                     </Text>
                 </LogoBox>
             </Link>

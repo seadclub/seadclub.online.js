@@ -1,16 +1,11 @@
-import {
-    Box,
-    Container,
-    chakra,
-    Heading,
-} from "@chakra-ui/react";
+import { Box, Container, chakra, Heading } from "@chakra-ui/react";
 import Paragraph from "../components/paragraph";
 import Layout from "../components/layouts/article";
 import Section from "../components/section";
 import Image from "next/image";
 
 const ProfileImage = chakra(Image, {
-    shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop),
+    shouldForwardProp: (prop) => ["width", "height", "src", "alt"].includes(prop)
 });
 
 const Home = () => (
@@ -20,7 +15,7 @@ const Home = () => (
     >
         <Container maxW="10xl">
             <Box display={{ md: "flex" }}>
-                <Box flexGrow={1} mt={5} w={'100%'}>
+                <Box flexGrow={1} mt={5} w={"100%"}>
                     <Heading as="h2" variant="page-title">
                         Клуб Інженерії Програмного Забезпечення та Цифрових Технологій
                     </Heading>
