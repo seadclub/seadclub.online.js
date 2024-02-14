@@ -1,5 +1,5 @@
 {
-    "name": "btwkenji",
+    "name": "kenjitheman",
     "version": "1.0",
     "description": "SEAD Club's Website",
     "scripts": {
@@ -10,7 +10,7 @@
         "lint": "next lint"
     },
     "keywords": [],
-    "author": "btwkenji",
+    "author": "kenjitheman",
     "license": "MIT",
     "dependencies": {
         "@chakra-ui/icons": "^2.0.15",
